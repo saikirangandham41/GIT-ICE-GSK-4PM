@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SeaVC: UIViewController {
+class SeaVC: UIViewController   {
 
     override func viewDidLoad() {
         super.viewDidLoad()
