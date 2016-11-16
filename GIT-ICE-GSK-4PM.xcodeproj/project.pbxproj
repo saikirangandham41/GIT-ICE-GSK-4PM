@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4599241DDD112D00E0A4DA /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4599231DDD112D00E0A4DA /* DViewController.swift */; };
 		7FD10F361DDA716D00DA02E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F351DDA716D00DA02E0 /* AppDelegate.swift */; };
 		7FD10F381DDA716D00DA02E0 /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F371DDA716D00DA02E0 /* EhVC.swift */; };
 		7FD10F3A1DDA716D00DA02E0 /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD10F391DDA716D00DA02E0 /* BeeVC.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4599231DDD112D00E0A4DA /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
 		7FD10F321DDA716D00DA02E0 /* GIT-ICE-GSK-4PM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-ICE-GSK-4PM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD10F351DDA716D00DA02E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD10F371DDA716D00DA02E0 /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				7FD10F371DDA716D00DA02E0 /* EhVC.swift */,
 				7FD10F391DDA716D00DA02E0 /* BeeVC.swift */,
 				7FD10F491DDA74C500DA02E0 /* SeaVC.swift */,
+				1F4599231DDD112D00E0A4DA /* DViewController.swift */,
 				7FD10F3B1DDA716D00DA02E0 /* Main.storyboard */,
 				7FD10F3E1DDA716D00DA02E0 /* Assets.xcassets */,
 				7FD10F401DDA716D00DA02E0 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD10F4A1DDA74C500DA02E0 /* SeaVC.swift in Sources */,
+				1F4599241DDD112D00E0A4DA /* DViewController.swift in Sources */,
 				7FD10F3A1DDA716D00DA02E0 /* BeeVC.swift in Sources */,
 				7FD10F361DDA716D00DA02E0 /* AppDelegate.swift in Sources */,
 				7FD10F381DDA716D00DA02E0 /* EhVC.swift in Sources */,
@@ -294,6 +298,7 @@
 				7FD10F481DDA716D00DA02E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
