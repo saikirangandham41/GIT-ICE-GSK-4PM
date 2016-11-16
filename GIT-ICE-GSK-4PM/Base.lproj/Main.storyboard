@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -104,6 +104,25 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="BaS-YR-fpc">
+            <objects>
+                <viewController id="oKs-Zn-ft1" customClass="DViewController" customModule="GIT_ICE_GSK_4PM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ihT-gK-v5Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="EmU-Xd-WJn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IPT-AF-8Mv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Bes-bL-yTS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2f3-TF-wHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="848"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -118,6 +137,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="TCj-hn-Up8" kind="relationship" relationship="viewControllers" id="fnI-jl-VZx"/>
+                        <segue destination="oKs-Zn-ft1" kind="relationship" relationship="viewControllers" id="mmA-9l-Ryo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
